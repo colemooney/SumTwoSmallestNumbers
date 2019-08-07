@@ -1,0 +1,11 @@
+function sumTwoSmallestNumbers(numbers) {
+  
+ let inOrder = numbers.sort(function(a,b){return a-b;});
+  
+ let finalSum=0;
+  
+  finalSum += inOrder[0];
+  finalSum += inOrder[1];
+
+ return finalSum;
+};
